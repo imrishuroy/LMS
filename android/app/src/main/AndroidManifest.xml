@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lms">
+    package="com.sixteenbrains.lms">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="lms"
         android:icon="@mipmap/ic_launcher">
